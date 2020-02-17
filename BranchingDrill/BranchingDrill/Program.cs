@@ -27,7 +27,7 @@ namespace BranchingDrill
                     int height = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Please enter the length of the package:");
                     int length = Convert.ToInt32(Console.ReadLine());
-                    if (width * height* length > 50)
+                    if (width + height + length > 50)
                         {
                         Console.WriteLine("Package too big to be shipped via Package Express. Have a good day");
                         Console.ReadLine();
