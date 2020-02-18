@@ -105,7 +105,6 @@ namespace ArraysAndListsDrill
             intList2.Add(2);
 
             Console.WriteLine("Please type a number between 0 and 5 to select an object from my number list! ");
-            Console.ReadLine();
 
             int integerSelected4 = Convert.ToInt32(Console.ReadLine());
 
@@ -147,11 +146,6 @@ namespace ArraysAndListsDrill
                 Console.ReadLine();
 
             }
-
-
-
-
-
 
         }
     }
