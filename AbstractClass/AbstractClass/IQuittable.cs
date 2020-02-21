@@ -8,5 +8,8 @@ namespace AbstractClass
 {
     interface IQuittable
     {
+        bool IsActive { get; set; }
+
+        void Quit();
     }
 }
