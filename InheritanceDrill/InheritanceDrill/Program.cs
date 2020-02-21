@@ -14,7 +14,8 @@ namespace InheritanceDrill
             Employee Person1 = new Employee();
             Person1.FirstName = "Sample";
             Person1.LastName = "Student";
-            Person1.SayName(Person1.FirstName, Person1.LastName);  
+            Person1.SayName(Person1.FirstName, Person1.LastName);
+            Console.ReadLine();
         }
     }
 }
