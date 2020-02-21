@@ -14,7 +14,8 @@ namespace ClassDrill
             Math numbers = new Math();
             Console.WriteLine("Please type a number: ");
             int userNumber = Convert.ToInt32(Console.ReadLine());
-            numbers.Addition(userNumber);
+            numbers.Addition(userNumber
+            );
             numbers.Product(userNumber);
             numbers.Subtraction(userNumber);
         }
