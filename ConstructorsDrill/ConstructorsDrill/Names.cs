@@ -11,14 +11,15 @@ namespace ConstructorsDrill
         public string lastName { get; set; }
         public string firstName { get; set; }
 
-        public void People(string firstNameOfPeople, string lastNameOfPeople)
+        public Names(string firstNameOfPeople, string lastNameOfPeople)
         {
             lastName = lastNameOfPeople;
             firstName = firstNameOfPeople;
             Console.WriteLine(firstName + " " + lastName);
+            return;
         }
 
-        public void People(string firstNameOfPeople) : this(firstNameOfPeople, "Smith" )
+        public Names(string firstNameOfPeople) : this(firstNameOfPeople, "Smith" )
         {
         }
 

@@ -20,7 +20,7 @@ namespace ConstructorsDrill
         Console.WriteLine("Please enter your last name: ");
         string lastNameOfPeople = Console.ReadLine();
 
-        var fullName1 = new Names.People("Emma");
+        var fullName1 = new Names("Emma");
         Console.WriteLine(fullName1);
 
 
